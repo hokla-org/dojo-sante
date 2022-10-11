@@ -2,3 +2,9 @@
   width: 80%;
   margin: auto;
 }
+
+.search-bar-container {
+  width: 20%;
+  margin: auto;
+  margin-bottom: 1em;
+}
