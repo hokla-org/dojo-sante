@@ -43,7 +43,9 @@ function App() {
 
   return (
     <div className="table-container">
-      <Input.Search onSearch={(searchTerm) => filterPatients(searchTerm)} />
+      <div className="search-bar-container">
+        <Input.Search onSearch={(searchTerm) => filterPatients(searchTerm)} />
+      </div>
       <Table dataSource={dataSource} columns={columns} />
     </div>
   );
