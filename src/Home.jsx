@@ -3,9 +3,11 @@ import "antd/dist/antd.css";
 import { useState } from "react";
 import "./Home.css";
 import patients from "./data/patients.json";
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
   const [dataSource, setDataSource] = useState(patients);
+  const navigate = useNavigate();
 
   const filterPatients = (searchTerm) => {
     const filteredPatients = patients.filter((patient) =>
@@ -51,7 +53,9 @@ function Home() {
       <div className="search-bar-container">
         <Input.Search onSearch={(searchTerm) => filterPatients(searchTerm)} />
       </div>
-      <Table dataSource={dataSource} columns={columns} />
+      <Table dataSource={dataSource} columns={columns} onRow={(record) => ({
+        onClick: () => navigate(`/patient/${record.id}`)
+      })} />
     </div>
   );
 }
