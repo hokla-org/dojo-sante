@@ -30,6 +30,11 @@ h2 {
     width: 30px;
 }
 
+.dropdown {
+    margin: auto;
+    display: flex;
+}
+
 .chart-container {
     display: flex;
     flex-direction: row;

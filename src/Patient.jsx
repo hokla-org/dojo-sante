@@ -1,10 +1,11 @@
-import { ArrowLeftOutlined } from "@ant-design/icons";
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { CartesianGrid, Label, Line, LineChart, XAxis, YAxis } from "recharts";
 import medicalData from "./data/medicalData.json";
 import patients from "./data/patients.json";
 import "./Patient.css";
+import { ArrowLeftOutlined, DownOutlined } from "@ant-design/icons";
+import { Button, Dropdown, Menu, Space } from "antd";
 
 const Patient = () => {
   const { id } = useParams();
@@ -18,6 +19,15 @@ const Patient = () => {
     return new Intl.DateTimeFormat().format(date);
   };
 
+  const menuItems = Object.keys(medicalData).map((dataSourceKey) => ({
+    key: dataSourceKey,
+    label: (
+      <div>{`${dataSourceKey} + (${medicalData[dataSourceKey].unit})`}</div>
+    ),
+  }));
+
+  const menu = <Menu items={menuItems} />;
+
   return (
     <>
       <div className="header">
@@ -30,6 +40,20 @@ const Patient = () => {
             <h2>E-mail: {patient.email}</h2>
             <div className="spacer"></div>
             <h2>Birthdate: {patient.birthdate}</h2>
+          </div>
+          <div>
+            <Dropdown
+              overlay={menu}
+              placement="bottomCenter"
+              className="dropdown"
+            >
+              <Button>
+                <Space>
+                  Sélectionner une donnée à afficher
+                  <DownOutlined />
+                </Space>
+              </Button>
+            </Dropdown>
           </div>
         </div>
       </div>
