@@ -1,12 +1,16 @@
+import { ArrowLeftOutlined } from "@ant-design/icons";
+import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { CartesianGrid, Label, Line, LineChart, XAxis, YAxis } from "recharts";
 import medicalData from "./data/medicalData.json";
-import React from "react";
-import { ArrowLeftOutlined } from "@ant-design/icons";
+import patients from "./data/patients.json";
+import "./Patient.css";
 
 const Patient = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+
+  const patient = patients.find((patient) => patient.id === id);
 
   const getDisplayedDate = (dataPoint) => {
     const date = new Date(dataPoint.datetime);
@@ -16,27 +20,21 @@ const Patient = () => {
 
   return (
     <>
-      <div
-        style={{
-          display: "flex",
-          margin: 40,
-          width: "50%",
-          flexDirection: "row",
-          justifyContent: "space-between",
-        }}
-      >
+      <div className="header">
         <div onClick={() => navigate(-1)}>
-          <ArrowLeftOutlined style={{ fontSize: 20 }} />
+          <ArrowLeftOutlined className="back-icon" />
         </div>
-        <div>Dropdown</div>
+        <div className="info-container">
+          <h1>{patient.name}</h1>
+          <div className="email-birthdate-container">
+            <h2>E-mail: {patient.email}</h2>
+            <div className="spacer"></div>
+            <h2>Birthdate: {patient.birthdate}</h2>
+          </div>
+        </div>
       </div>
-      <div style={{ margin: "auto", width: "100%" }}>
-        <LineChart
-          width={1000}
-          height={500}
-          data={medicalData.insulin.data}
-          style={{ margin: "auto", width: "100%" }}
-        >
+      <div className="chart-container">
+        <LineChart width={1000} height={500} data={medicalData.insulin.data}>
           <Line type="monotone" dataKey="value" stroke="#8884d8" />
           <CartesianGrid stroke="#ccc" />
           <XAxis dataKey={getDisplayedDate}>
