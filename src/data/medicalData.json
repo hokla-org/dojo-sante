@@ -144,6 +144,6 @@
       }
     ]
   },
-  "cardiacFrequency": [],
-  "bloodPressure": []
+  "cardiacFrequency": {},
+  "bloodPressure": {}
 }
