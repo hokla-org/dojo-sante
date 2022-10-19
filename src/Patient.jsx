@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { CartesianGrid, Label, Line, LineChart, XAxis, YAxis } from "recharts";
 import medicalData from "./data/medicalData.json";
@@ -10,6 +10,7 @@ import { Button, Dropdown, Menu, Space } from "antd";
 const Patient = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const [shownData, setShownData] = useState(null);
 
   const patient = patients.find((patient) => patient.id === id);
 
@@ -22,7 +23,9 @@ const Patient = () => {
   const menuItems = Object.keys(medicalData).map((dataSourceKey) => ({
     key: dataSourceKey,
     label: (
-      <div>{`${dataSourceKey} + (${medicalData[dataSourceKey].unit})`}</div>
+      <div
+        onClick={() => setShownData(dataSourceKey)}
+      >{`${dataSourceKey} + (${medicalData[dataSourceKey].unit})`}</div>
     ),
   }));
 
@@ -49,7 +52,7 @@ const Patient = () => {
             >
               <Button>
                 <Space>
-                  Sélectionner une donnée à afficher
+                  {shownData ?? 'Sélectionner une donnée à afficher'}
                   <DownOutlined />
                 </Space>
               </Button>
@@ -57,21 +60,35 @@ const Patient = () => {
           </div>
         </div>
       </div>
-      <div className="chart-container">
-        <LineChart width={1000} height={500} data={medicalData.insulin.data}>
-          <Line type="monotone" dataKey="value" stroke="#8884d8" />
-          <CartesianGrid stroke="#ccc" />
-          <XAxis dataKey={getDisplayedDate}>
-            <Label value="Date" position="bottom" offset={0} />
-          </XAxis>
-          <YAxis>
-            <Label
-              value={`Insulin (${medicalData.insulin.unit})`}
-              position="left"
-            />
-          </YAxis>
-        </LineChart>
-      </div>
+      {shownData !== null && (
+        <div className="chart-container">
+          <LineChart
+            width={1000}
+            height={500}
+            data={medicalData[shownData].data}
+          >
+            {medicalData[shownData].data[0].value !== undefined && (
+              <Line type="monotone" dataKey="value" stroke="#8884d8" />
+            )}
+            {medicalData[shownData].data[0].value1 !== undefined && (
+                <>
+                  <Line type="monotone" dataKey="value1" stroke="#8884d8" />
+                  <Line type="monotone" dataKey="value2" stroke="#8884d8" />
+                </>
+            )}
+            <CartesianGrid stroke="#ccc" />
+            <XAxis dataKey={getDisplayedDate}>
+              <Label value="Date" position="bottom" offset={0} />
+            </XAxis>
+            <YAxis>
+              <Label
+                value={`Insulin (${medicalData[shownData].unit})`}
+                position="left"
+              />
+            </YAxis>
+          </LineChart>
+        </div>
+      )}
     </>
   );
 };
