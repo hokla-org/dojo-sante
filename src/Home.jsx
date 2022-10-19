@@ -1,9 +1,10 @@
-import { Input, Table } from "antd";
+import { Button, Input, Table } from "antd";
 import "antd/dist/antd.css";
 import { useState } from "react";
 import "./Home.css";
 import patients from "./data/patients.json";
 import { useNavigate } from "react-router-dom";
+import { PlusCircleOutlined } from "@ant-design/icons";
 
 function Home() {
   const [dataSource, setDataSource] = useState(patients);
@@ -50,8 +51,17 @@ function Home() {
 
   return (
     <div className="table-container">
-      <div className="search-bar-container">
-        <Input.Search onSearch={(searchTerm) => filterPatients(searchTerm)} />
+      <div className="table-actions-container">
+        <Input.Search
+          className="search-bar"
+          onSearch={(searchTerm) => filterPatients(searchTerm)}
+        />
+        <Button
+          icon={<PlusCircleOutlined />}
+          onClick={() => navigate("/create-patient")}
+        >
+          Créer un patient
+        </Button>
       </div>
       <Table
         dataSource={dataSource}

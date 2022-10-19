@@ -3,8 +3,13 @@
   margin: auto;
 }
 
-.search-bar-container {
-  width: 20%;
-  margin: auto;
+.table-actions-container {
+  display: flex;
   margin-bottom: 1em;
+  justify-content: space-between;
 }
+
+.search-bar {
+  width: 20em;
+}
+
