@@ -6,15 +6,6 @@ h2 {
     text-align: center;
 }
 
-.header {
-    margin: 40px auto;
-}
-
-.back-icon {
-    font-size: 20px;
-    margin-left: 40px;
-}
-
 .info-container {
     display: flex;
     flex-direction: column;
