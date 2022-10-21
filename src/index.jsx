@@ -1,15 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import "./common.css";
 import Home from "./Home";
 import Patient from "./Patient";
 import CreatePatient from "./CreatePatient";
 import { ConfigProvider } from "antd";
-import "./common.css";
+
 import frFR from "antd/es/locale/fr_FR";
 
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import initPatientsStorage from "./initPatientsStorage";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,8 @@ const router = createBrowserRouter([
   { path: "/patient/:id", element: <Patient /> },
   { path: "/create-patient", element: <CreatePatient /> },
 ]);
+
+initPatientsStorage();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
