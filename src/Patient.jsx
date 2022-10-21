@@ -4,8 +4,8 @@ import { CartesianGrid, Label, Line, LineChart, XAxis, YAxis } from "recharts";
 import medicalData from "./data/medicalData.json";
 import patients from "./data/patients.json";
 import "./Patient.css";
-import { ArrowLeftOutlined, DownOutlined } from "@ant-design/icons";
-import { Button, Dropdown, Menu, Space } from "antd";
+import { ArrowLeftOutlined } from "@ant-design/icons";
+import { Radio } from "antd";
 
 const Patient = () => {
   const { id } = useParams();
@@ -20,16 +20,12 @@ const Patient = () => {
     return new Intl.DateTimeFormat().format(date);
   };
 
-  const menuItems = Object.keys(medicalData).map((dataSourceKey) => ({
-    key: dataSourceKey,
-    label: (
-      <div
-        onClick={() => setShownData(dataSourceKey)}
-      >{`${dataSourceKey} + (${medicalData[dataSourceKey].unit})`}</div>
-    ),
+  const options = Object.keys(medicalData).map((dataSourceKey) => ({
+    value: dataSourceKey,
+    label: `${dataSourceKey} (${medicalData[dataSourceKey].unit})`,
   }));
 
-  const menu = <Menu items={menuItems} />;
+  const onOptionSelect = (newSelectedValue) => setShownData(newSelectedValue);
 
   return (
     <>
@@ -45,18 +41,15 @@ const Patient = () => {
             <h2>Birthdate: {patient.birthdate}</h2>
           </div>
           <div>
-            <Dropdown
-              overlay={menu}
-              placement="bottomCenter"
-              className="dropdown"
-            >
-              <Button>
-                <Space>
-                  {shownData ?? 'Sélectionner une donnée à afficher'}
-                  <DownOutlined />
-                </Space>
-              </Button>
-            </Dropdown>
+            <Radio.Group
+              className="select"
+              options={options}
+              onChange={(newSelection) =>
+                onOptionSelect(newSelection.target.value)
+              }
+              value={shownData}
+              optionType="button"
+            />
           </div>
         </div>
       </div>
@@ -71,10 +64,10 @@ const Patient = () => {
               <Line type="monotone" dataKey="value" stroke="#8884d8" />
             )}
             {medicalData[shownData].data[0].value1 !== undefined && (
-                <>
-                  <Line type="monotone" dataKey="value1" stroke="#8884d8" />
-                  <Line type="monotone" dataKey="value2" stroke="#8884d8" />
-                </>
+              <>
+                <Line type="monotone" dataKey="value1" stroke="#8884d8" />
+                <Line type="monotone" dataKey="value2" stroke="#8884d8" />
+              </>
             )}
             <CartesianGrid stroke="#ccc" />
             <XAxis dataKey={getDisplayedDate}>
