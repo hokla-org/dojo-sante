@@ -2,15 +2,17 @@ import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { CartesianGrid, Label, Line, LineChart, XAxis, YAxis } from "recharts";
 import medicalData from "./data/medicalData.json";
-import patients from "./data/patients.json";
 import "./Patient.css";
 import { ArrowLeftOutlined } from "@ant-design/icons";
 import { Radio } from "antd";
+import { usePatients } from "./usePatients";
 
 const Patient = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [shownData, setShownData] = useState(null);
+
+  const patients = usePatients();
 
   const patient = patients.find((patient) => patient.id === id);
 

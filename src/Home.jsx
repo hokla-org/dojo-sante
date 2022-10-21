@@ -2,11 +2,12 @@ import { Button, Input, Table } from "antd";
 import "antd/dist/antd.css";
 import { useState } from "react";
 import "./Home.css";
-import patients from "./data/patients.json";
 import { useNavigate } from "react-router-dom";
 import { PlusCircleOutlined } from "@ant-design/icons";
+import { usePatients } from "./usePatients";
 
 function Home() {
+  const patients = usePatients();
   const [dataSource, setDataSource] = useState(patients);
   const navigate = useNavigate();
 
