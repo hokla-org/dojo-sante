@@ -21,9 +21,9 @@ h2 {
     width: 30px;
 }
 
-.dropdown {
-    margin: auto;
+.select {
     display: flex;
+    justify-content: center;
 }
 
 .chart-container {
