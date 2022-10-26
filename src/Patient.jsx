@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { CartesianGrid, Label, Line, LineChart, XAxis, YAxis } from "recharts";
-import medicalData from "./data/medicalData.json";
 import "./Patient.css";
 import { ArrowLeftOutlined } from "@ant-design/icons";
 import { Radio } from "antd";
 import { usePatients } from "./usePatients";
+import { useMedicalData } from "./useMedicalData";
 
 const Patient = () => {
   const { id } = useParams();
@@ -13,6 +13,7 @@ const Patient = () => {
   const [shownData, setShownData] = useState(null);
 
   const patients = usePatients();
+  const medicalData = useMedicalData();
 
   const patient = patients.find((patient) => patient.id === id);
 
