@@ -12,6 +12,7 @@ import frFR from "antd/es/locale/fr_FR";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import initPatientsStorage from "./initPatientsStorage";
+import initMedicalDataStorage from "./initMedicalDataStorage";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
   { path: "/create-patient", element: <CreatePatient /> },
 ]);
 
+initMedicalDataStorage();
 initPatientsStorage();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
