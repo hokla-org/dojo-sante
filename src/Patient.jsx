@@ -13,7 +13,7 @@ const Patient = () => {
   const [shownData, setShownData] = useState(null);
 
   const patients = usePatients();
-  const medicalData = useMedicalData();
+  const medicalData = useMedicalData()[Number.parseInt(id) % 2];
 
   const patient = patients.find((patient) => patient.id === id);
 
