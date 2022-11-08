@@ -10,9 +10,14 @@ const CreatePatient = () => {
 
   const patients = usePatients();
   const getNewPatientId = () => {
-    const patientIds = patients.map((patient) => Number.parseInt(patient.id));
-    const maxPatientId = Math.max(patientIds);
-    return Number.toString(maxPatientId + 1);
+    const patientIds = patients.flatMap((patient) => {
+      const parsed = Number.parseInt(patient.id);
+      return Number.isNaN(parsed) ? [] : parsed;
+    });
+
+    const maxPatientId = Math.max(...patientIds);
+
+    return (maxPatientId + 1).toString();
   };
 
   const formatBirthdate = (date) => {
