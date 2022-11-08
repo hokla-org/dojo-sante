@@ -2,7 +2,7 @@
   "0": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 62 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 61 },
@@ -153,7 +153,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 111, "value2": 70 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 108, "value2": 72 },
@@ -180,7 +180,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7655238851902997 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.8305768011066362 },
@@ -213,7 +213,7 @@
   "1": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 113 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 112 },
@@ -364,7 +364,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 108, "value2": 70 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 104, "value2": 70 },
@@ -391,7 +391,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7820339222300549 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7620543016101128 },
@@ -424,7 +424,7 @@
   "2": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 111 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 112 },
@@ -575,7 +575,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 110, "value2": 72 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 108, "value2": 71 },
@@ -602,7 +602,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.322149730437329 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.2330920814648128 },
@@ -635,7 +635,7 @@
   "3": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 110 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 113 },
@@ -786,7 +786,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 106, "value2": 69 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 107, "value2": 69 },
@@ -813,7 +813,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.8689170131509348 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.8602877840299087 },
@@ -846,7 +846,7 @@
   "4": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 110 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 112 },
@@ -997,7 +997,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 106, "value2": 72 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 105, "value2": 72 },
@@ -1024,7 +1024,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.2443661272333428 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.1884136255277722 },
@@ -1057,7 +1057,7 @@
   "5": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 67 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 68 },
@@ -1208,7 +1208,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 111, "value2": 70 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 114, "value2": 71 },
@@ -1235,7 +1235,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7153284152946323 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7145020940686322 },
@@ -1268,7 +1268,7 @@
   "6": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 110 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 108 },
@@ -1419,7 +1419,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 106, "value2": 68 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 110, "value2": 66 },
@@ -1446,7 +1446,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7538020799567897 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7525209523752517 },
@@ -1479,7 +1479,7 @@
   "7": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 61 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 63 },
@@ -1630,7 +1630,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 134, "value2": 86 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 137, "value2": 85 },
@@ -1657,7 +1657,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7230745662373317 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7470164608960103 },
@@ -1690,7 +1690,7 @@
   "8": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 109 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 111 },
@@ -1841,7 +1841,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 107, "value2": 70 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 110, "value2": 70 },
@@ -1868,7 +1868,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.2205440274499817 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.1815125638365398 },
@@ -1901,7 +1901,7 @@
   "9": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 66 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 67 },
@@ -2052,7 +2052,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 109, "value2": 70 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 106, "value2": 68 },
@@ -2079,7 +2079,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.3221426582208005 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.3399284428824936 },
@@ -2112,7 +2112,7 @@
   "10": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 63 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 64 },
@@ -2263,7 +2263,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 106, "value2": 69 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 109, "value2": 70 },
@@ -2290,7 +2290,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.3094901302727957 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.2812226002035902 },
@@ -2323,7 +2323,7 @@
   "11": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 67 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 65 },
@@ -2474,7 +2474,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 139, "value2": 85 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 140, "value2": 86 },
@@ -2501,7 +2501,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7624239575994761 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7186346827608584 },
@@ -2534,7 +2534,7 @@
   "12": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 63 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 61 },
@@ -2685,7 +2685,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 138, "value2": 85 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 134, "value2": 83 },
@@ -2712,7 +2712,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7261426467940956 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7969674387992454 },
@@ -2745,7 +2745,7 @@
   "13": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 110 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 110 },
@@ -2896,7 +2896,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 107, "value2": 70 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 110, "value2": 68 },
@@ -2923,7 +2923,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.1829853930574383 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.3282129870637236 },
@@ -2956,7 +2956,7 @@
   "14": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 61 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 62 },
@@ -3107,7 +3107,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 108, "value2": 68 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 105, "value2": 69 },
@@ -3134,7 +3134,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7779429839527742 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7318457282712646 },
@@ -3167,7 +3167,7 @@
   "15": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 63 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 63 },
@@ -3318,7 +3318,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 109, "value2": 71 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 106, "value2": 70 },
@@ -3345,7 +3345,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7632929873414683 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7801829354051848 },
@@ -3378,7 +3378,7 @@
   "16": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 63 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 60 },
@@ -3529,7 +3529,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 110, "value2": 69 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 110, "value2": 69 },
@@ -3556,7 +3556,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.849114524748331 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.8476694140412288 },
@@ -3589,7 +3589,7 @@
   "17": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 64 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 64 },
@@ -3740,7 +3740,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 108, "value2": 71 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 111, "value2": 73 },
@@ -3767,7 +3767,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.225387847135374 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.3454009151209667 },
@@ -3800,7 +3800,7 @@
   "18": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 62 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 64 },
@@ -3951,7 +3951,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 132, "value2": 86 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 133, "value2": 85 },
@@ -3978,7 +3978,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.2782696670525069 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.2970568961455426 },
@@ -4011,7 +4011,7 @@
   "19": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 112 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 111 },
@@ -4162,7 +4162,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 112, "value2": 70 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 109, "value2": 69 },
@@ -4189,7 +4189,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7105323210753863 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.8797925810081921 },
@@ -4222,7 +4222,7 @@
   "20": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 61 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 63 },
@@ -4373,7 +4373,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 111, "value2": 69 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 108, "value2": 67 },
@@ -4400,7 +4400,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.153609651018691 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.2345477837486547 },
@@ -4433,7 +4433,7 @@
   "21": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 67 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 68 },
@@ -4584,7 +4584,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 107, "value2": 70 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 110, "value2": 71 },
@@ -4611,7 +4611,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7918372627380774 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7079164635048326 },
@@ -4644,7 +4644,7 @@
   "22": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 113 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 113 },
@@ -4795,7 +4795,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 110, "value2": 72 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 110, "value2": 70 },
@@ -4822,7 +4822,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.8911999106963002 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7233532313560728 },
@@ -4855,7 +4855,7 @@
   "23": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 112 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 111 },
@@ -5006,7 +5006,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 112, "value2": 70 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 112, "value2": 69 },
@@ -5033,7 +5033,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.328567304220142 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.282333714759121 },
@@ -5066,7 +5066,7 @@
   "24": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 63 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 62 },
@@ -5217,7 +5217,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 140, "value2": 84 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 143, "value2": 84 },
@@ -5244,7 +5244,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.8317189131705641 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7621808806001048 },
@@ -5277,7 +5277,7 @@
   "25": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 109 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 108 },
@@ -5428,7 +5428,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 108, "value2": 71 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 111, "value2": 72 },
@@ -5455,7 +5455,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.2879573250089882 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.2033158983122891 },
@@ -5488,7 +5488,7 @@
   "26": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 67 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 68 },
@@ -5639,7 +5639,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 133, "value2": 86 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 131, "value2": 87 },
@@ -5666,7 +5666,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.217773941717037 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.2897158661671482 },
@@ -5699,7 +5699,7 @@
   "27": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 63 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 62 },
@@ -5850,7 +5850,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 134, "value2": 87 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 131, "value2": 88 },
@@ -5877,7 +5877,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.2543635844281724 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.2914347302967082 },
@@ -5910,7 +5910,7 @@
   "28": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 63 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 61 },
@@ -6061,7 +6061,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 114, "value2": 70 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 110, "value2": 69 },
@@ -6088,7 +6088,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7719205435052463 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.8720861706159954 },
@@ -6121,7 +6121,7 @@
   "29": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 112 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 111 },
@@ -6272,7 +6272,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 110, "value2": 70 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 109, "value2": 69 },
@@ -6299,7 +6299,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7955563331178351 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7599541682671821 },
@@ -6332,7 +6332,7 @@
   "30": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 66 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 66 },
@@ -6483,7 +6483,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 137, "value2": 85 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 140, "value2": 84 },
@@ -6510,7 +6510,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.3379280804645404 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.281031627066049 },
@@ -6543,7 +6543,7 @@
   "31": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 65 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 66 },
@@ -6694,7 +6694,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 133, "value2": 87 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 129, "value2": 87 },
@@ -6721,7 +6721,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.7766079226123229 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.830079536015023 },
@@ -6754,7 +6754,7 @@
   "32": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 65 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 66 },
@@ -6905,7 +6905,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 106, "value2": 71 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 103, "value2": 73 },
@@ -6932,7 +6932,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.8914231902157556 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7953376648174664 },
@@ -6965,7 +6965,7 @@
   "33": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 65 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 67 },
@@ -7116,7 +7116,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 108, "value2": 71 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 105, "value2": 72 },
@@ -7143,7 +7143,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.702919634292272 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7288183273129347 },
@@ -7176,7 +7176,7 @@
   "34": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 110 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 111 },
@@ -7327,7 +7327,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 134, "value2": 87 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 135, "value2": 87 },
@@ -7354,7 +7354,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.1762854797211488 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.2104384082437691 },
@@ -7387,7 +7387,7 @@
   "35": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 110 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 108 },
@@ -7538,7 +7538,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 113, "value2": 69 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 110, "value2": 68 },
@@ -7565,7 +7565,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.8306084033617486 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.8342823937312076 },
@@ -7598,7 +7598,7 @@
   "36": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 113 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 112 },
@@ -7749,7 +7749,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 110, "value2": 69 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 113, "value2": 68 },
@@ -7776,7 +7776,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.2739170330016618 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.214906479314257 },
@@ -7809,7 +7809,7 @@
   "37": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 62 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 60 },
@@ -7960,7 +7960,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 139, "value2": 88 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 137, "value2": 87 },
@@ -7987,7 +7987,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.3230468943959823 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.324250506308942 },
@@ -8020,7 +8020,7 @@
   "38": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 113 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 112 },
@@ -8171,7 +8171,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 107, "value2": 69 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 106, "value2": 70 },
@@ -8198,7 +8198,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.1963556765482266 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.3054030198344908 },
@@ -8231,7 +8231,7 @@
   "39": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 111 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 112 },
@@ -8382,7 +8382,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 110, "value2": 72 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 107, "value2": 73 },
@@ -8409,7 +8409,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.8599670765354829 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.8096852922953683 },
@@ -8442,7 +8442,7 @@
   "40": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 113 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 113 },
@@ -8593,7 +8593,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 110, "value2": 69 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 114, "value2": 70 },
@@ -8620,7 +8620,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.314697998491725 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.3309509801221355 },
@@ -8653,7 +8653,7 @@
   "41": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 65 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 66 },
@@ -8804,7 +8804,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 107, "value2": 71 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 106, "value2": 71 },
@@ -8831,7 +8831,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.8450180771427737 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7612119488020426 },
@@ -8864,7 +8864,7 @@
   "42": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 108 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 107 },
@@ -9015,7 +9015,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 112, "value2": 71 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 113, "value2": 73 },
@@ -9042,7 +9042,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.2458536585538806 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.288794664824176 },
@@ -9075,7 +9075,7 @@
   "43": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 64 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 67 },
@@ -9226,7 +9226,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 137, "value2": 85 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 137, "value2": 87 },
@@ -9253,7 +9253,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.264505899141915 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.3025399510323536 },
@@ -9286,7 +9286,7 @@
   "44": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 65 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 68 },
@@ -9437,7 +9437,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 140, "value2": 86 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 141, "value2": 88 },
@@ -9464,7 +9464,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.2635121272839756 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.2230767281407509 },
@@ -9497,7 +9497,7 @@
   "45": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 66 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 64 },
@@ -9648,7 +9648,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 106, "value2": 69 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 109, "value2": 69 },
@@ -9675,7 +9675,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.1713739541577084 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.2852171407609407 },
@@ -9708,7 +9708,7 @@
   "46": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 62 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 61 },
@@ -9859,7 +9859,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 132, "value2": 86 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 130, "value2": 87 },
@@ -9886,7 +9886,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.8217572234278689 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7486454337662843 },
@@ -9919,7 +9919,7 @@
   "47": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 109 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 111 },
@@ -10070,7 +10070,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 135, "value2": 85 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 137, "value2": 86 },
@@ -10097,7 +10097,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.1741069761017575 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.3284608696391536 },
@@ -10130,7 +10130,7 @@
   "48": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 66 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 68 },
@@ -10281,7 +10281,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 111, "value2": 68 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 110, "value2": 70 },
@@ -10308,7 +10308,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 1.1991477994297783 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 1.157441627177163 },
@@ -10341,7 +10341,7 @@
   "49": {
     "cardiacFrequency": {
       "unit": "bpm",
-      "name": "Fréquence cardiaque",
+      "name": "🫀 Fréquence cardiaque",
       "data": [
         { "datetime": "2022-10-16T00:00:00.000Z", "value": 110 },
         { "datetime": "2022-10-16T00:10:00.000Z", "value": 112 },
@@ -10492,7 +10492,7 @@
     },
     "bloodPressure": {
       "unit": "mmHg",
-      "name": "Pression sanguine",
+      "name": "🩸 Pression sanguine",
       "data": [
         { "datetime": "2022-10-10T08:30:00.000Z", "value1": 106, "value2": 72 },
         { "datetime": "2022-10-11T08:30:00.000Z", "value1": 108, "value2": 70 },
@@ -10519,7 +10519,7 @@
     },
     "glycaemiaData": {
       "unit": "g/L",
-      "name": "Taux de glycémie",
+      "name": "🍪 Taux de glycémie",
       "data": [
         { "datetime": "2022-10-10T00:00:00.000Z", "value": 0.8188558952671104 },
         { "datetime": "2022-10-10T01:00:00.000Z", "value": 0.7936538866773278 },
