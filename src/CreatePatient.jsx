@@ -2,34 +2,16 @@ import { Button, DatePicker, Form, Input } from "antd";
 import { ArrowLeftOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 import { useCreatePatient } from "./useCreatePatient";
-import { usePatients } from "./usePatients";
 
 const CreatePatient = () => {
   const navigate = useNavigate();
   const goBack = () => navigate(-1);
 
-  const patients = usePatients();
-  const getNewPatientId = () => {
-    const patientIds = patients.map((patient) => Number.parseInt(patient.id));
-    const maxPatientId = Math.max(patientIds);
-    return Number.toString(maxPatientId + 1);
-  };
-
-  const formatBirthdate = (date) => {
-    const ISODateTime = date.toISOString();
-    return ISODateTime.split("T")[0];
-  };
-
-  const createPatient = useCreatePatient();
+  const { buildNewPatient, saveNewPatient } = useCreatePatient();
 
   const onFormSubmit = (formData) => {
-    const newPatient = {
-      ...formData,
-      id: getNewPatientId(),
-      birthdate: formatBirthdate(formData.birthdate),
-      generalPractitioner: "Dr. Burris",
-    };
-    createPatient(newPatient);
+    const newPatient = buildNewPatient(formData);
+    saveNewPatient(newPatient);
 
     navigate("/");
   };
