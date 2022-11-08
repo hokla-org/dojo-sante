@@ -1,5 +1,6 @@
 {
   "insulin": {
+    "name": "🍪 Insuline",
     "unit": "µUI/mL",
     "data": [
       {
@@ -145,6 +146,7 @@
     ]
   },
   "cardiacFrequency": {
+    "name": "🫀 Fréquence cardiaque",
     "unit": "bpm",
     "data": [
       {
@@ -726,6 +728,7 @@
     ]
   },
   "bloodPressure": {
+    "name": "🩸 Pression sanguine",
     "unit": "mmHg",
     "data": [
       {
