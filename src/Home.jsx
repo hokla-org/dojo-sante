@@ -1,13 +1,13 @@
-import { Button, Input, Table } from "antd";
+import { Button, Input, Space, Table, Tag } from "antd";
 import "antd/dist/antd.css";
 import { useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import { PlusCircleOutlined } from "@ant-design/icons";
-import { usePatients } from "./usePatients";
+import { usePatientsWithMedicalWarnings } from "./usePatientsWithMedicalWarnings";
 
 function Home() {
-  const patients = usePatients();
+  const patients = usePatientsWithMedicalWarnings();
   const [dataSource, setDataSource] = useState(patients);
   const navigate = useNavigate();
 
@@ -47,6 +47,26 @@ function Home() {
       width: "20%",
       sorter: (p1, p2) =>
         p1.generalPractitioner.localeCompare(p2.generalPractitioner),
+    },
+    {
+      title: "Alertes",
+      key: "warnings",
+      dataIndex: "warnings",
+      render: (_, { warnings }) => (
+        <>
+          <Space direction="vertical">
+            {warnings.map((warning) => {
+              return (
+                <>
+                  <Tag color="volcano" key={warning}>
+                    {warning}
+                  </Tag>
+                </>
+              );
+            })}
+          </Space>
+        </>
+      ),
     },
   ];
 

@@ -5,7 +5,7 @@ import "./Patient.css";
 import { ArrowLeftOutlined } from "@ant-design/icons";
 import { Radio } from "antd";
 import { usePatients } from "./usePatients";
-import { useMedicalData } from "./useMedicalData";
+import { usePatientMedicalData } from "./usePatientMedicalData";
 
 const Patient = () => {
   const { id } = useParams();
@@ -13,9 +13,9 @@ const Patient = () => {
   const [shownData, setShownData] = useState(null);
 
   const patients = usePatients();
-  const medicalData = useMedicalData();
 
   const patient = patients.find((patient) => patient.id === id);
+  const medicalData = usePatientMedicalData(id);
 
   const getDisplayedDate = (dataPoint) => {
     const date = new Date(dataPoint.datetime);
@@ -23,10 +23,13 @@ const Patient = () => {
     return new Intl.DateTimeFormat().format(date);
   };
 
-  const options = Object.keys(medicalData).map((dataSourceKey) => ({
-    value: dataSourceKey,
-    label: `${dataSourceKey} (${medicalData[dataSourceKey].unit})`,
-  }));
+  const options =
+    medicalData === null
+      ? []
+      : Object.keys(medicalData).map((dataSourceKey) => ({
+          value: dataSourceKey,
+          label: `${medicalData[dataSourceKey].name} (${medicalData[dataSourceKey].unit})`,
+        }));
 
   const onOptionSelect = (newSelectedValue) => setShownData(newSelectedValue);
 
@@ -43,17 +46,21 @@ const Patient = () => {
             <div className="spacer"></div>
             <h2>Birthdate: {patient.birthdate}</h2>
           </div>
-          <div>
-            <Radio.Group
-              className="select"
-              options={options}
-              onChange={(newSelection) =>
-                onOptionSelect(newSelection.target.value)
-              }
-              value={shownData}
-              optionType="button"
-            />
-          </div>
+          {options.length === 0 ? (
+            <h3>Aucune donnée</h3>
+          ) : (
+            <div>
+              <Radio.Group
+                className="select"
+                options={options}
+                onChange={(newSelection) =>
+                  onOptionSelect(newSelection.target.value)
+                }
+                value={shownData}
+                optionType="button"
+              />
+            </div>
+          )}
         </div>
       </div>
       {shownData !== null && (

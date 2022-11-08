@@ -1,5 +1,12 @@
 [
   {
+    "id": "0",
+    "name": "Valerie Bonilla",
+    "email": "valerie.bonilla@example.com",
+    "birthdate": "2001-03-03",
+    "generalPractitioner": "Dr. Burris"
+  },
+  {
     "id": "1",
     "name": "Prince Hartley",
     "email": "prince.hartley@example.com",
@@ -340,13 +347,6 @@
     "name": "Nana Rogers",
     "email": "nana.rogers@example.com",
     "birthdate": "1955-06-22",
-    "generalPractitioner": "Dr. Burris"
-  },
-  {
-    "id": "50",
-    "name": "Valerie Bonilla",
-    "email": "valerie.bonilla@example.com",
-    "birthdate": "2001-03-03",
     "generalPractitioner": "Dr. Burris"
   }
 ]
