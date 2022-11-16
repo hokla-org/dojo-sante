@@ -1,3 +1,5 @@
+import { CreatePatientFormData } from "./CreatePatient.type";
+import { Patient } from "./Patient.type";
 import { usePatients } from "./usePatients";
 
 export const useCreatePatient = () => {
@@ -14,12 +16,12 @@ export const useCreatePatient = () => {
     return (maxPatientId + 1).toString();
   };
 
-  const formatBirthdate = (date) => {
+  const formatBirthdate = (date: Date) => {
     const ISODateTime = date.toISOString();
     return ISODateTime.split("T")[0];
   };
 
-  const buildNewPatient = (formData) => {
+  const buildNewPatient = (formData: CreatePatientFormData): Patient => {
     return {
       ...formData,
       id: getNewPatientId(),
@@ -28,7 +30,7 @@ export const useCreatePatient = () => {
     };
   };
 
-  const saveNewPatient = (newPatient) => {
+  const saveNewPatient = (newPatient: Patient) => {
     const newPatients = [...patients, newPatient];
     localStorage.setItem("patients", JSON.stringify(newPatients));
   };
