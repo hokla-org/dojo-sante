@@ -1,14 +1,16 @@
 import { Button, Input, Space, Table, Tag } from "antd";
-import "antd/dist/antd.css";
+import "antd/dist/antd.min.css";
 import { useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import { PlusCircleOutlined } from "@ant-design/icons";
 import { usePatientsWithMedicalWarnings } from "./usePatientsWithMedicalWarnings";
+import React from "react";
+import { PatientWithWarnings } from "./Patient.type";
 
 function Home() {
   const patients = usePatientsWithMedicalWarnings();
-  const [dataSource, setDataSource] = useState(patients);
+  const [dataSource, setDataSource] = useState<PatientWithWarnings[]>(patients);
   const navigate = useNavigate();
 
   const filterPatients = (searchTerm) => {

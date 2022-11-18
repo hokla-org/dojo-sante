@@ -2,6 +2,8 @@ import { Button, DatePicker, Form, Input } from "antd";
 import { ArrowLeftOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 import { useCreatePatient } from "./useCreatePatient";
+import React from "react";
+import { CreatePatientFormData } from "./CreatePatient.type";
 
 const CreatePatient = () => {
   const navigate = useNavigate();
@@ -9,7 +11,7 @@ const CreatePatient = () => {
 
   const { buildNewPatient, saveNewPatient } = useCreatePatient();
 
-  const onFormSubmit = (formData) => {
+  const onFormSubmit = (formData: CreatePatientFormData) => {
     const newPatient = buildNewPatient(formData);
     saveNewPatient(newPatient);
 

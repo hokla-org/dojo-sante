@@ -26,14 +26,18 @@ const router = createBrowserRouter([
 initMedicalDataStorage();
 initPatientsStorage();
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <ConfigProvider locale={frFR}>
-      <RouterProvider router={router} />
-    </ConfigProvider>
-  </React.StrictMode>
-);
+const rootElement = document.getElementById("root");
+
+if (rootElement !== null) {
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(
+    <React.StrictMode>
+      <ConfigProvider locale={frFR}>
+        <RouterProvider router={router} />
+      </ConfigProvider>
+    </React.StrictMode>
+  );
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

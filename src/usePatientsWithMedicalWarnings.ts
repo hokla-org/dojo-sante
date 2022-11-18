@@ -1,7 +1,8 @@
+import { PatientWithWarnings } from "./Patient.type";
 import { usePatients } from "./usePatients";
 import { usePatientsMedicalData } from "./usePatientsMedicalData";
 
-export const usePatientsWithMedicalWarnings = () => {
+export const usePatientsWithMedicalWarnings = (): PatientWithWarnings[] => {
   const patientsMedicalData = usePatientsMedicalData();
   const patients = usePatients();
 
@@ -11,7 +12,7 @@ export const usePatientsWithMedicalWarnings = () => {
         ? patientsMedicalData[patient.id]
         : null;
 
-    let warnings = [];
+    let warnings: string[] = [];
 
     if (patientData === null) return { ...patient, warnings };
 
