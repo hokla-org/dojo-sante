@@ -6,9 +6,9 @@ type CardiacFrequencyData = { datetime: string; value: number };
 type CardiacFrequencyUnit = "bpm";
 type CardiacFrequencyName = "🫀 Fréquence cardiaque";
 
-type GlycaemiaData = { datetime: string; value1: number; value2: number };
-type GlycaemiaUnit = "mmHg";
-type GlycaemiaName = "🩸 Pression sanguine";
+type GlycaemiaData = { datetime: string; value: number; };
+type GlycaemiaUnit = "g/L";
+type GlycaemiaName = "🍪 Taux de glycémie";
 
 export type PatientMedicalData = {
   unit: BloodPressureUnit | CardiacFrequencyUnit | GlycaemiaUnit;
