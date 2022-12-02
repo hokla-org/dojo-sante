@@ -1,5 +1,5 @@
 import { Button, Input, Space, Table, Tag } from "antd";
-import "antd/dist/antd.min.css";
+import "antd/dist/reset.css";
 import { useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
