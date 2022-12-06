@@ -4,8 +4,8 @@ import { CartesianGrid, Label, Line, LineChart, XAxis, YAxis } from "recharts";
 import "./Patient.css";
 import { ArrowLeftOutlined } from "@ant-design/icons";
 import { Radio } from "antd";
-import { usePatients } from "../../usePatients";
-import { usePatientMedicalData } from "../../usePatientMedicalData";
+import { usePatients } from "../../hooks/usePatients";
+import { usePatientMedicalData } from "../../hooks/usePatientMedicalData";
 
 const Patient = () => {
   const { id } = useParams();
