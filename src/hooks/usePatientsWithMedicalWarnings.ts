@@ -1,4 +1,4 @@
-import { PatientWithWarnings } from "../types/Patient.type";
+import { PatientWithWarnings } from "../types/Patient";
 import { usePatients } from "./usePatients";
 import { usePatientsMedicalData } from "./usePatientsMedicalData";
 

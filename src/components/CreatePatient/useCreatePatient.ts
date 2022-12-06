@@ -1,5 +1,5 @@
 import { CreatePatientFormData } from "./CreatePatient.type";
-import { Patient } from "../../types/Patient.type";
+import { Patient } from "../../types/Patient";
 import { usePatients } from "../../hooks/usePatients";
 
 export const useCreatePatient = () => {

@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { PatientsMedicalData } from "../types/MedicalData.type";
+import { PatientsMedicalData } from "../types/MedicalData";
 
 export const usePatientsMedicalData = (): PatientsMedicalData => {
   const stringifiedPatientsMedicalData = localStorage.getItem(
