@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./common.css";
 import Home from "./components/Home/Home";
-import Patient from "./Patient";
+import Patient from "./components/Patient/Patient";
 import CreatePatient from "./CreatePatient";
 import { ConfigProvider } from "antd";
 
