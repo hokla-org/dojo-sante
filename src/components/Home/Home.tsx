@@ -4,9 +4,9 @@ import { useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import { PlusCircleOutlined } from "@ant-design/icons";
-import { usePatientsWithMedicalWarnings } from "./usePatientsWithMedicalWarnings";
+import { usePatientsWithMedicalWarnings } from "../../usePatientsWithMedicalWarnings";
 import React from "react";
-import { PatientWithWarnings } from "./Patient.type";
+import { PatientWithWarnings } from "../../Patient.type";
 
 function Home() {
   const patients = usePatientsWithMedicalWarnings();
