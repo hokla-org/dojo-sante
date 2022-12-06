@@ -1,6 +1,6 @@
-import medicalDataWarning from "./data/medicalDataWarning.json";
-import medicalData from "./data/medicalData.json";
-import patientsMedicalData from "./data/patientsMedicalData.json";
+import medicalDataWarning from "./medicalDataWarning.json";
+import medicalData from "./medicalData.json";
+import patientsMedicalData from "./patientsMedicalData.json";
 
 export default function initMedicalDataStorage() {
   if (localStorage.getItem("medicalData") === null)

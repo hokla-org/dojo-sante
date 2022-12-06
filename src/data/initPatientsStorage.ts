@@ -1,4 +1,4 @@
-import patients from "./data/patients.json";
+import patients from "./patients.json";
 
 export default function initPatientsStorage() {
   if (localStorage.getItem("patients") === null)
