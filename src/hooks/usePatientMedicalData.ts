@@ -1,4 +1,4 @@
-import { PatientMedicalData } from "../MedicalData";
+import { PatientMedicalData } from "../types/MedicalData.type";
 import { usePatientsMedicalData } from "./usePatientsMedicalData";
 
 export const usePatientMedicalData = (patientId): PatientMedicalData | null => {

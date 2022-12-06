@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { PlusCircleOutlined } from "@ant-design/icons";
 import { usePatientsWithMedicalWarnings } from "../../hooks/usePatientsWithMedicalWarnings";
 import React from "react";
-import { PatientWithWarnings } from "../Patient/Patient.type";
+import { PatientWithWarnings } from "../../types/Patient.type";
 
 function Home() {
   const patients = usePatientsWithMedicalWarnings();
