@@ -1,6 +1,6 @@
 import { CreatePatientFormData } from "./CreatePatient.type";
-import { Patient } from "./components/Patient/Patient.type";
-import { usePatients } from "./usePatients";
+import { Patient } from "../Patient/Patient.type";
+import { usePatients } from "../../usePatients";
 
 export const useCreatePatient = () => {
   const patients = usePatients();
