@@ -1,6 +1,6 @@
 import { Button, Input, Space, Table, Tag } from "antd";
 import "antd/dist/reset.css";
-import { useState } from "react";
+import { ChangeEvent, useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import { PlusCircleOutlined } from "@ant-design/icons";
@@ -13,9 +13,11 @@ function Home() {
   const [dataSource, setDataSource] = useState<PatientWithWarnings[]>(patients);
   const navigate = useNavigate();
 
-  const filterPatients = (searchTerm) => {
+  const filterPatients = (event: ChangeEvent<HTMLInputElement>) => {
     const filteredPatients = patients.filter((patient) =>
-      patient.name.toLowerCase().includes(searchTerm.toLowerCase())
+      patient.name
+        .toLowerCase()
+        .includes(event.currentTarget.value.toLowerCase())
     );
     setDataSource(filteredPatients);
   };
@@ -75,9 +77,11 @@ function Home() {
   return (
     <div className="table-container">
       <div className="table-actions-container">
-        <Input.Search
+        <Input
+          data-testid="search-bar"
           className="search-bar"
-          onSearch={(searchTerm) => filterPatients(searchTerm)}
+          onChange={(searchTerm) => filterPatients(searchTerm)}
+          placeholder="Recherchez un patient"
         />
         <Button
           icon={<PlusCircleOutlined />}
