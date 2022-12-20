@@ -3,17 +3,39 @@ import { ArrowLeftOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 import { useCreatePatient } from "./useCreatePatient";
 import React from "react";
-import { CreatePatientFormData } from "./CreatePatient.type";
+import { usePatients } from "../../hooks/usePatients";
 
 const CreatePatient = () => {
   const navigate = useNavigate();
   const goBack = () => navigate(-1);
 
-  const { buildNewPatient, saveNewPatient } = useCreatePatient();
+  const patients = usePatients();
+  const getNewPatientId = () => {
+    const patientIds = patients.flatMap((patient) => {
+      const parsed = Number.parseInt(patient.id);
+      return Number.isNaN(parsed) ? [] : parsed;
+    });
 
-  const onFormSubmit = (formData: CreatePatientFormData) => {
-    const newPatient = buildNewPatient(formData);
-    saveNewPatient(newPatient);
+    const maxPatientId = Math.max(...patientIds);
+
+    return (maxPatientId + 1).toString();
+  };
+
+  const formatBirthdate = (date) => {
+    const ISODateTime = date.toISOString();
+    return ISODateTime.split("T")[0];
+  };
+
+  const createPatient = useCreatePatient();
+
+  const onFormSubmit = (formData) => {
+    const newPatient = {
+      ...formData,
+      id: getNewPatientId(),
+      birthdate: formatBirthdate(formData.birthdate),
+      generalPractitioner: "Dr. Burris",
+    };
+    createPatient(newPatient);
 
     navigate("/");
   };
