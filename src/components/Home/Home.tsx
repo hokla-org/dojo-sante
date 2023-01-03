@@ -1,9 +1,8 @@
-import { Button, Input, Space, Table, Tag } from "antd";
+import { Input, Space, Table, Tag } from "antd";
 import "antd/dist/reset.css";
 import { ChangeEvent, useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
-import { PlusCircleOutlined } from "@ant-design/icons";
 import { usePatientsWithMedicalWarnings } from "../../hooks/usePatientsWithMedicalWarnings";
 import React from "react";
 import { PatientWithWarnings } from "../../types/Patient";
@@ -83,12 +82,6 @@ function Home() {
           onChange={(searchTerm) => filterPatients(searchTerm)}
           placeholder="Recherchez un patient"
         />
-        <Button
-          icon={<PlusCircleOutlined />}
-          onClick={() => navigate("/create-patient")}
-        >
-          Créer un patient
-        </Button>
       </div>
       <Table
         dataSource={dataSource}

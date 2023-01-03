@@ -4,7 +4,6 @@ import "./index.css";
 import "./common.css";
 import Home from "./components/Home/Home";
 import Patient from "./components/Patient/Patient";
-import CreatePatient from "./components/CreatePatient/CreatePatient";
 import { ConfigProvider } from "antd";
 import "./common.css";
 import frFR from "antd/es/locale/fr_FR";
@@ -19,7 +18,6 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   { path: "/patient/:id", element: <Patient /> },
-  { path: "/create-patient", element: <CreatePatient /> },
 ]);
 
 initMedicalDataStorage();
