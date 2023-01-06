@@ -62,7 +62,7 @@ describe("[Component] Home", () => {
 
       await act(() => userEvent.type(searchBar, "Crampon"));
 
-      const maxime = homeComponent.getByText("Maxime Crampon");
+      const maxime = homeComponent.queryByText("Maxime Crampon");
       expect(maxime).toBeInTheDocument();
 
       const raphael = homeComponent.queryByText("Raphaël Dhôte");
