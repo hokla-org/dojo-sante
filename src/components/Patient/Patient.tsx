@@ -4,13 +4,15 @@ import { CartesianGrid, Label, Line, LineChart, XAxis, YAxis } from "recharts";
 import "./Patient.css";
 import { ArrowLeftOutlined } from "@ant-design/icons";
 import { Radio } from "antd";
-import patients from "../../data/patients.json";
+import { usePatients } from "../../hooks/usePatients";
 import { usePatientMedicalData } from "../../hooks/usePatientMedicalData";
 
 const Patient = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [shownData, setShownData] = useState<string | null>(null);
+
+  const patients = usePatients();
 
   const patient = patients.find((patient) => patient.id === id) ?? null;
   const medicalData = usePatientMedicalData(id);
