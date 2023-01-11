@@ -1,7 +1,7 @@
 import { act, render } from "@testing-library/react";
 import Home from "./Home";
 import React from "react";
-import { PatientWithWarnings } from "../../types/Patient";
+import { Patient } from "../../types/Patient";
 import userEvent from "@testing-library/user-event";
 
 jest.mock("react-router-dom", () => {
@@ -13,14 +13,13 @@ jest.mock("react-router-dom", () => {
   };
 });
 
-const mockPatients: PatientWithWarnings[] = [
+const mockPatients: Patient[] = [
   {
     id: "0",
     name: "Maxime Crampon",
     email: "maximec@hokla.com",
     birthdate: "1996-11-19",
     generalPractitioner: "Dr. Burris",
-    warnings: [],
   },
   {
     id: "1",
@@ -28,12 +27,11 @@ const mockPatients: PatientWithWarnings[] = [
     email: "raphaeld@hokla.com",
     birthdate: "1998-01-26",
     generalPractitioner: "Dr. Burris",
-    warnings: [],
   },
 ];
 
-jest.mock("../../hooks/usePatientsWithMedicalWarnings", () => ({
-  usePatientsWithMedicalWarnings: () => mockPatients,
+jest.mock("../../hooks/usePatients", () => ({
+  usePatients: () => mockPatients,
 }));
 
 describe("[Component] Home", () => {
