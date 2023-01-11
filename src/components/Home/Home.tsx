@@ -1,15 +1,15 @@
-import { Input, Space, Table, Tag } from "antd";
+import { Input, Table } from "antd";
 import "antd/dist/reset.css";
 import { ChangeEvent, useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
-import { usePatientsWithMedicalWarnings } from "../../hooks/usePatientsWithMedicalWarnings";
 import React from "react";
-import { PatientWithWarnings } from "../../types/Patient";
+import { Patient } from "../../types/Patient";
+import { usePatients } from "../../hooks/usePatients";
 
 function Home() {
-  const patients = usePatientsWithMedicalWarnings();
-  const [dataSource, setDataSource] = useState<PatientWithWarnings[]>(patients);
+  const patients = usePatients();
+  const [dataSource, setDataSource] = useState<Patient[]>(patients);
   const navigate = useNavigate();
 
   const filterPatients = (event: ChangeEvent<HTMLInputElement>) => {
@@ -50,26 +50,6 @@ function Home() {
       width: "20%",
       sorter: (p1, p2) =>
         p1.generalPractitioner.localeCompare(p2.generalPractitioner),
-    },
-    {
-      title: "Alertes",
-      key: "warnings",
-      dataIndex: "warnings",
-      render: (_, { warnings }) => (
-        <>
-          <Space direction="vertical">
-            {warnings.map((warning) => {
-              return (
-                <>
-                  <Tag color="volcano" key={warning}>
-                    {warning}
-                  </Tag>
-                </>
-              );
-            })}
-          </Space>
-        </>
-      ),
     },
   ];
 
