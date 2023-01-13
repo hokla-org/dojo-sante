@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./common.css";
 import Home from "./components/Home/Home";
-import Patient from "./components/Patient/Patient";
 import { ConfigProvider } from "antd";
 import "./common.css";
 import frFR from "antd/es/locale/fr_FR";
@@ -16,7 +15,6 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />,
   },
-  { path: "/patient/:id", element: <Patient /> },
 ]);
 
 const rootElement = document.getElementById("root");
